@@ -14,7 +14,9 @@ namespace Travel
           
             if (budjet > 1000)
             {
+
                 Console.WriteLine("");
+
                 Console.WriteLine("Hotel - {0:f2}", 0.90 * budjet);
             }
             else if (budjet > 100)
