@@ -14,7 +14,7 @@ namespace Travel
             var season = Console.ReadLine();
             if (budjet > 1000)
             {
-                Console.WriteLine("Somewhere in Europe");
+                Console.WriteLine("Somewhere in Europe", "demo");
                 Console.WriteLine("Hotel - {0:f2}", 0.90 * budjet);
             }
             else if (budjet > 100)
