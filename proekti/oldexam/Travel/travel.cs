@@ -11,10 +11,10 @@ namespace Travel
         static void Main(string[] args)
         {
             var budjet = double.Parse(Console.ReadLine());
-            var season = Console.ReadLine();
+          
             if (budjet > 1000)
             {
-                Console.WriteLine("Somewhere in Europe");
+                Console.WriteLine("");
                 Console.WriteLine("Hotel - {0:f2}", 0.90 * budjet);
             }
             else if (budjet > 100)
